@@ -1,0 +1,15 @@
+<div class="mood"
+     [ngClass]="{
+                    'best': mood >= 87.5,
+                    'great': mood < 87.5 && mood >= 75,
+                    'good': mood < 75 && mood >= 62.5,
+                    'ok': mood < 62.5 && mood >= 50,
+                    'poor': mood < 50 && mood >= 37.5,
+                    'bad': mood < 37.5 && mood >= 25,
+                    'very-bad': mood < 25 && mood >= 12.5,
+                    'abysmal': mood < 12.5
+  }">
+  <div>
+  {{ mood }}%
+  </div>
+</div>

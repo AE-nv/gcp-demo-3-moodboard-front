@@ -1,0 +1,37 @@
+.mood {
+  color: white;
+  font-size: 144px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.best {
+  background-color: #01cc49;
+}
+.great {
+  background-color: #5dcc7c;
+}
+.good {
+  background-color: #86cc94;
+}
+.ok {
+  background-color: #bdcb2b;
+}
+.poor {
+  background-color: #cbc942;
+}
+.bad {
+  background-color: #cb964c;
+}
+.very-bad {
+  background-color: #cb7147;
+}
+.abysmal {
+  background-color: #cb4138;
+}
